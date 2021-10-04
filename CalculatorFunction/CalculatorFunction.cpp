@@ -10,18 +10,20 @@ void SubtractNumbers();
 void MultiplyNumbers();
 void DivideNumbers();
 
+//main function strated
 int main()
 {
     AddNumbers();
     SubtractNumbers();
     MultiplyNumbers();
     DivideNumbers();
-}
+}//main function ended
 
 void line() {
     cout << "\n*********************\n";
 }
 
+//function for adding numbers
 void AddNumbers() {
     float number1, number2, result;
     cout << "Addition";
@@ -33,6 +35,7 @@ void AddNumbers() {
     result = number1 + number2;
     cout << "\nThe Sum of the two given numbers is: " << result << endl;
 }
+//functions for subtraction
 void SubtractNumbers() {
     float number1, number2, result;
     cout << "Difference";
